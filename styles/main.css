@@ -63,6 +63,10 @@
     grid-row: 6/7;
 }
 
+.img-box {
+    border-radius: 20px;
+}
+
 .main-content_title {
     font-weight: 700;
     font-size: 70px;
@@ -70,6 +74,7 @@
     position: absolute;
     top: 145px;
     left:112px;
+
 }
 
 .main-content_text-sale {
@@ -90,12 +95,14 @@
     font-weight: 700;
     font-size: 60px;
     line-height: 130%;
-    margin: 0 3px;
+}
+.big__number:not(:first-child) {
+    padding-left: 19px;
 }
 
 .main-content__text {
     position: absolute;
-    top: 336px;
-    left: 661px;
+    top: 338px;
+    left: 644px;
 
 }

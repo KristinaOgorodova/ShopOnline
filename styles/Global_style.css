@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 html {
     position: relative;
     box-sizing: border-box;
@@ -12,7 +14,7 @@ html {
 body {
     min-width: 320px;
     min-height: 100vh;
-    font-family: lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #FFFFFF;
 }
 
