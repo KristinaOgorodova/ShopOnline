@@ -1,12 +1,12 @@
 
 .header {
-    padding-top: 31px;
+    padding-top: 29px;
     margin-bottom: 76px;
 }
 
 .header__container {
     display: grid;
-    grid-template-columns: repeat(16,minmax(50px, 1fr));
+    grid-template-columns: minmax(100px,300px) 200px minmax(300px,1fr) minmax(250px, 400px);
     align-items: start;
 }
 
@@ -30,9 +30,9 @@
 .header__search {
     max-width:757px;
     position: relative;
-    grid-column-start: 6;
-    grid-column-end: 13;
-    margin-left: 8px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-left: 62px;
 }
 
 .search__area {
@@ -55,18 +55,15 @@
 }
 
 .header__login {
-    grid-column-start: 13;
-    grid-column-end: 17;
+    grid-column-start: 4;
+    grid-column-end: 5;
     height: 61px;
-    margin-left: 89px;
+    margin-left: 47px;
 }
 
 .header__nav {
-    grid-column-start: 3;
-    grid-column-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
     max-width: 151px;
-    max-height: 54px;
-    margin-left: 90px;
-    margin-top: 2px;
-
+    margin-left: 13px;
 }
