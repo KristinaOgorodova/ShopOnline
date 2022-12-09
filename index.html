@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <script defer src="js/countdown.js"></script>
     <link rel="stylesheet" href="./styles/index.css">
     <title>ShopOnline</title>
 </head>
@@ -41,12 +41,14 @@
             <div class="main-content__card main-content__card_1 ">
                 <img src="./image/banner.jpg" alt="баннер" class= "content-card">
                 <h1 class="main-content_title">-50% на все ноутбуки</h1>
-                <div class="main-content__text">
+                <div class="main-content__text timer">
                     <p class="main-content_text-sale">До конца акции:</p>
-                    <p class="main-content_time">
-                        <span class="big__number">3</span> дня
-                        <span class="big__number">8</span> часов
-                        <span class="big__number">  43</span> минуты</p>
+                    <div class="main-content_time" data-deadline="2022/12/31 22:53:00">
+                        <div class="main-content_time_time-line"><span class="big__number timer_day"></span> <span class="days">дня</span></div>
+                        <div class="main-content_time_time-line"><span class="big__number timer_hour"></span> <span class="hours">часов</span></div>
+                        <div class="main-content_time_time-line"><span class="big__number timer_min">  </span> <span class="minutes">минуты</span></div>
+                        <div class="main-content_time_time-line"><span class="big__number timer_sec">  </span> <span class="sec">секунды</span></div>
+                    </div>
                 </div>
             </div>
             <div class="main-content__container">

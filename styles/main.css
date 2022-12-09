@@ -6,6 +6,9 @@
     margin-bottom: 50px;
 }
 
+.timer_sec {
+    display: none;
+}
 
 .content-card {
     width: 100%;
@@ -124,9 +127,19 @@
 }
 
 .main-content_time {
+    display: flex;
+    justify-content: center;
+
+
     font-weight: 700;
     font-size: 32px;
     line-height: 130%;
+}
+
+.main-content_time_time-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .big__number {
