@@ -138,19 +138,21 @@
 .main-content_time_time-line {
     display: flex;
     justify-content:space-around;
-    align-items: center;
+    align-items: baseline;
+}
 
+.main-content_time_time-line:not(:last-child) {
+    margin-right: 10px;
 }
 
 .big__number {
     font-weight: 700;
     font-size: 60px;
     line-height: 130%;
-
 }
 
-.big__number:not(:first-child) {
-    padding-left: 20px;
+.big__number:not(:last-child) {
+   margin-right: 10px;
 }
 
 .main-content__text {
