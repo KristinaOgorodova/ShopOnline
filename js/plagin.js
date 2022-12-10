@@ -88,7 +88,7 @@ const searchTimer = () => {
   dataTimer.forEach((item) => {
     createCountdown(item);
     const deadline = item.dataset.timerDeadline;
-    timer(deadline, item);
+    timer(deadline);
   });
 };
 
